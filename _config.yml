@@ -1,5 +1,5 @@
 # Site settings
-title: PHOTORAMA
+title: Meredith Zhang
 email: ""
 description: "Film Journal"
 url: "https://ericawei053.github.io"
@@ -18,7 +18,7 @@ owner:
   name:   photorama
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: photography website
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -33,8 +33,8 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://ericawei053.github.io/MeredithZ/gallery/"  
-  - JOURNAL: "https://ericawei053.github.io/MeredithZ/journal/"
+  - GALLERY: "https://ericawei053.github.io/MeredithZ/gallery/"
+  - PHOTO: "https://ericawei053.github.io/MeredithZ/photo/"
   - ABOUT: "https://ericawei053.github.io/MeredithZ/about/"
 
 # All translation keys
@@ -52,13 +52,14 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-paginate_path: "/journal/page:num/"
-permalink: "/journal/:title/"
-categories_path: "/journal/category/"
-tags_path: "/journal/tag/"
+paginate_path: "/video/page:num/"
+permalink: "/video/:title/"
+categories_path: "/video/category/"
+tags_path: "/video/tag/"
 gems: 
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+plugins: [jekyll-paginate]
 
 # SiteMap
 sitemap:
