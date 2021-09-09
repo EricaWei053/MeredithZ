@@ -69,14 +69,33 @@ images:
 
 				</div>
 			<!-- END WYSIWYG -->
-			
-	
+
+
 		</div><!-- END .wrapper -->
 		
 	</section>
 
 <div id="footer" role="contentinfo">
 		<ul class="soc-icons">
+            {% if site.youtube_username %}
+                    <li>
+            <a href="https://youtube.com/channel/{{ site.youtube_username }}" style="
+color:#dddddd; target="_blank" title="Youtube">
+                       <i class="fa fa-youtube"></i>
+                     </span> </a> </li>
+                    {% endif %}
+
+
+                    {% if site.linkedin_username %}
+                    <li>
+            <a href="https://linkedin.com/{{ site.linkedin_username }}" style="
+color:#dddddd; target="_blank" title="Linkedin">
+                       <i class="fa fa-linkedin"></i>
+                     </span> </a> </li>
+
+
+                    {% endif %}
+
 
                  {% if site.facebook_username %}
 			<li>
@@ -108,14 +127,14 @@ color:#dddddd; target="_blank" title="Instagram">
 color:#dddddd; target="_blank" title="Flickr">
               <i class="fa fa-flickr"></i>
                      </span>
- </a></li>	
+ </a></li>
      {% endif %}
                     {% if site.deviantart_username %}
 			<li>
    <a href="http://{{ site.deviantart_username }}.deviantart.com" style="
 color:#dddddd; target="_blank" title="DeviantArt">
 <i class="fa fa-deviantart"></i> </span>
-</a></li>	
+</a></li>
     {% endif %}
                     {% if site.github_username %}
                 <li>
@@ -129,9 +148,9 @@ color:#dddddd; target="_blank" title="Github">
 color:#dddddd; target="_blank" title="Email">
               <i class="fa fa-envelope-o"></i></span>
           </a> </li>
-	
-					
-		</ul>	
+
+
+		</ul>
 	</div>
 
   
