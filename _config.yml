@@ -1,16 +1,12 @@
 # Site settings
 title: Meredith Zhang
-email: ""
+email: "rz1440@nyu.edu"
 description: "Film Journal"
 url: "https://ericawei053.github.io"
 baseurl: "/MeredithZ"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+youtube_username: "UCU732tAN0-ezYFNcq1asHCQ"
+linkedin_username: "ruidan-meredith-zhang"
+instagram_username: "goodnightmykitten"
 share: true
 
 # Owner/author information
@@ -33,7 +29,7 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://ericawei053.github.io/MeredithZ/gallery/"
+  - VIDEO: "https://ericawei053.github.io/MeredithZ/video/"
   - PHOTO: "https://ericawei053.github.io/MeredithZ/photo/"
   - ABOUT: "https://ericawei053.github.io/MeredithZ/about/"
 
