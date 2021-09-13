@@ -11,10 +11,10 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   personal website
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website
+  info: Meredith Zhang personal website
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -30,6 +30,7 @@ comments :
 # Internal nav
 nav:
   - VIDEO: "https://ericawei053.github.io/MeredithZhang/video/"
+  - PRE-PRODUCTION: "https://ericawei053.github.io/MeredithZhang/pre-production/"
   - PHOTO: "https://ericawei053.github.io/MeredithZhang/photo/"
   - ABOUT: "https://ericawei053.github.io/MeredithZhang/about/"
 
